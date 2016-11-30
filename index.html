@@ -1,0 +1,1021 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//PL" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>Responsywny e-mail</title>
+	<style type="text/css">
+	/* fonty google */
+	@import url(http://fonts.googleapis.com/css?family=Varela+Round);
+	@import url(http://fonts.googleapis.com/css?family=Questrial);
+	/* ogolne style */
+	/* style ogolne */
+	body {
+		margin: 0;
+		padding: 0;
+		width: 100% !important;
+	}
+	img {
+		border: none;
+		outline: none;
+	}
+	a {
+		text-decoration: none;
+	}
+	table {
+		border-collapse: collapse;
+	}
+	table td {
+		border-collapse: collapse;
+	}
+
+	.wrapper {
+		margin: 0;
+		padding: 0;
+		width: 100% !important;
+		line-height: 100% !important;
+	}
+	.hidden {
+		display: none;
+	}
+
+	s:after {
+	    content:"";  
+	    height: 45%;   
+	    height: calc(50% - 1px); 
+	    border-top: 2px solid #000000;
+	    transform: rotateZ(-13deg);
+	    width: 30px; 
+	    position: absolute;
+	    bottom: 0;
+	    left: 0;
+    }
+	/* media queries */
+	@media only screen and (max-width: 700px) {
+		table.width-100 {
+			width: 100% !important;
+		}
+		
+		td.width-100-center {
+			width: 100% !important;
+			text-align: center !important;
+		}
+		table.width-100-center {
+			width: 100% !important;
+			text-align: center !important;
+		}
+		table.width-92 {
+			width: 92% !important;
+			text-align: left !important;
+			float: none !important;
+			margin: auto !important;
+		}
+
+		table.element-center{
+			margin: 0 auto !important;
+		}
+		.no-image{
+			background: #FFFFFF;
+		}
+		.hidden {
+			display: block !important;
+			width: 100% !important;
+		}
+
+		img.img_rwd{
+			max-width: 100% !important;
+			vertical-align: middle !important;
+			height: auto !important;
+			text-align: center !important;
+			float: none;
+		}
+
+		.hidden_on_small {
+			display: none;
+		}
+
+		.copyright{
+			font-size: 14px !important;
+		}
+	}
+	</style>
+
+</head>
+
+<body style="margin:0; padding:0;">
+
+	<!-- header -->
+	<table class="wrapper" width="100%" bgcolor="#ffffff" cellpadding="0" cellspacing="0" border="0">
+		<tbody>
+			<tr>
+				<td>
+					<table class="width-100" width="590" align="center" bgcolor="#ffffff" cellpadding="0" cellspacing="0" border="0">
+						<tbody>
+							<!-- margines -->
+							<tr>
+								<td height="25" style="line-height:0;font-size:0px;border-collapse: collapse">
+								</td>
+							</tr>
+							<!-- margines koniec-->
+							<tr>
+								<td class="hidden_on_small" style="line-height:20px;font-size:14px;border-collapse: collapse; font-family: 'Varela Round', sans-serif; color: #c2c6cc">
+									Lorem ipsum dolor
+								</td>
+								<td class="width-100-center" style="border-collapse: collapse">
+									<a href="" style="text-decoration: none;"><img src="http://placehold.it/150x32" width="150" alt="logo" style="display: inline-block; border: 0px; "/></a>
+								</td>
+								<td class="hidden_on_small" style="line-height:20px;font-size:14px;border-collapse: collapse; font-family: 'Varela Round', sans-serif; color: #c2c6cc">
+									Ut vitae 
+								</td>
+							</tr>
+							<!-- margines -->
+							<tr>
+								<td height="25" style="line-height:0;font-size:0px;border-collapse: collapse">
+								</td>
+							</tr>
+							<!-- margines koniec-->
+						</tbody>
+					</table>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+	<!-- koniec header -->
+	<!-- baner -->
+	<table  class="wrapper" width="100%" bgcolor="#ffffff" cellpadding="0" cellspacing="0" border="0">
+	 <tbody>
+	 	<tr>
+	 	 	<td align="center" bgcolor="#9e3e51" style="background-image: url('img/baner.jpg'); background-size: cover; background-position: top center; background-repeat: no-repeat;">
+	 	 		<table class="width-100" width="590" align="center" border="0" cellspacing="0" cellpadding="0">
+	 	 			<tbody>
+	 	 			 	<!-- margines -->
+						<tr>
+							<td height="70" style="line-height:0;font-size:0px;border-collapse: collapse">
+							</td>
+						</tr>
+						<!-- margines koniec-->
+						<!-- nagłowek -->
+	 					<tr>
+	 	 					<td align="center" class="width-100-center" style="font-size: 38px; color: #ffffff; line-height: 38px; font-family:  Questrial, sans-serif ">
+	 	 						Mauris vestibulum
+	 	 					</td>
+	 	 				</tr>
+	 	 				<!-- nagłowek koniec-->
+	 	 				<!-- margines -->
+						<tr>
+							<td height="20" style="line-height:0;font-size:0px;border-collapse: collapse">
+							</td>
+						</tr>
+						<!-- margines koniec-->
+	 	 				<!-- akapit -->
+	 	 				<tr>
+	 	 					<td align="center" class="width-100-center" style="font-size: 16px; color: #ffffff; line-height: 20px; font-family:  Questrial, sans-serif ">
+	 	 						Aenean eu sodales magna, at lacinia ipsum. Phasellus mattis, sem ac varius elementum, felis est lacinia odio, ut pharetra lectus felis nec lorem. Morbi felis mi, dictum eu luctus eu, venenatis id arcu. Vestibulum finibus massa id arcu fringilla luctus. Maecenas ornare erat in blandit iaculis. Nunc sit amet metus ex. Nunc at condimentum eros, a feugiat justo. Etiam vitae sapien eget arcu sagittis tincidunt. Curabitur lacinia purus porttitor arcu ullamcorper, quis mollis est pretium. Vestibulum elementum accumsan fringilla. 
+	 	 					</td>
+	 	 				</tr>
+	 	 			 	<!-- akapit koniec -->
+	 	 			 	<!-- margines -->
+						<tr>
+							<td height="40" style="line-height:0;font-size:0px;border-collapse: collapse">
+							</td>
+						</tr>
+						<!-- margines koniec-->
+						<!-- przycisk -->
+						<tr >
+							<td align="center" style="border-collapse: collapse">
+								<table class="element-center"  cellpadding="0" cellspacing="0" border="0"  style="border-collapse: collapse;">
+									<tbody>
+										<tr>
+											<td style="border-radius: 50px; font-family: 'Varela Round', sans-serif; " width="200" height="50" bgcolor="#c54d64" align="center">
+												<a href="" style="text-decoration: none; color: #ffffff; font-size: 16px; line-height: 29px; width: 100%;">
+													WIĘCEJ
+												</a>
+											</td>
+										</tr>
+									</tbody>
+								</table>
+							</td>
+						</tr>
+						<!-- przycisk koniec -->
+						<!-- margines -->
+						<tr>
+							<td height="70" style="line-height:0;font-size:0px;border-collapse: collapse">
+							</td>
+						</tr>
+						<!-- margines koniec-->
+	 	 			</tbody>
+	 	 		</table>
+	 	 	</td>
+	 	</tr>
+	 </tbody>
+	</table>
+	<!-- baner koniec -->
+	<!-- informacje -->
+	<table  class="wrapper" width="100%" bgcolor="#ffffff" cellpadding="0" cellspacing="0" border="0">
+		<tbody>
+			<tr>
+			 	<td>
+			 		<table  class="width-92" width="590" align="center" cellpadding="0" cellspacing="0" border="0">
+			 			<tbody>
+			 				<!-- margines -->
+							<tr>
+								<td height="40" style="line-height:0;font-size:0px;border-collapse: collapse">
+								</td>
+							</tr>
+							<!-- margines koniec-->
+							<tr>
+			 					<td>
+			 						<!-- 1 i 2 kolumna -->
+			 						<table class="width-100" align="left" width="380" cellpadding="0" cellspacing="0" border="0">
+			 							<tbody>
+											<tr>
+			 									<td>
+			 										<!-- kolumna 1 -->
+			 										<table class="width-100" align="left" width="190" cellpadding="0" cellspacing="0" border="0">
+			 											<tbody>
+															<tr>
+			 													<td align="center">
+			 														<a href="" style="text-decoration: none;">
+																		<img src="http://placehold.it/119x119" width="119" style="display: inline-block; border: 13px solid #c4687b" alt="Donec tortor" />
+																	</a>
+			 													</td>
+			 												</tr>
+			 												<!-- nagłowek -->
+			 												<tr>
+	 	 														<td align="center" class="width-100-center" style="font-size: 20px; color: #c54d64; line-height: 50px; font-family:  Questrial, sans-serif; font-weight: bold">
+	 	 															Donec tortor  
+	 	 														</td>
+	 	 													</tr>
+			 												<!-- nagłowek koniec -->
+			 												<!-- akapit  -->
+			 												<tr>
+	 	 														<td align="center" class="width-100-center" style="font-size: 16px; color: #627189; line-height: 22px; font-family:  Questrial, sans-serif;">
+	 	 															Fusce augue lectus, commodo at bibendum tempor, efficitur eget.
+	 	 														</td>
+	 	 													</tr>
+			 												<!-- akapit  koniec-->
+			 											</tbody>	
+			 										</table>
+			 										<!-- kolumna 1 koniec-->
+			 										<!-- separator mobilny -->				
+													<table class="hidden" width="1" border="0" cellspacing="0" cellpadding="0" align="right">
+														<tbody>
+															<tr>
+																<td class="width-100" height="40">
+																</td>
+															</tr>
+														</tbody>
+													</table> 
+													<!-- koniec separator mobilny -->
+			 										<!-- kolumna 2 -->
+			 										<table class="width-100" align="right" width="190" cellpadding="0" cellspacing="0" border="0">
+			 											<tbody>
+															<tr>
+			 													<td class="width-100-center" align="center">
+			 														<a href="" style="text-decoration: none;">
+																		<img src="http://placehold.it/119x119" width="119" style="display: inline-block; border: 13px solid #c4687b" alt="Mauris " />
+																	</a>
+			 													</td>
+			 												</tr>
+			 												<!-- nagłowek -->
+			 												<tr>
+	 	 														<td align="center" class="width-100-center" style="font-size: 20px; color: #c54d64; line-height: 50px; font-family:  Questrial, sans-serif; font-weight: bold">
+	 	 															Mauris 
+	 	 														</td>
+	 	 													</tr>
+			 												<!-- nagłowek koniec -->
+			 												<!-- akapit  -->
+			 												<tr>
+	 	 														<td align="center" class="width-100-center" style="font-size: 16px; color: #627189; line-height: 22px; font-family:  Questrial, sans-serif;">
+	 	 															Fusce augue lectus, commodo at bibendum tempor, efficitur eget.
+	 	 														</td>
+	 	 													</tr>
+			 												<!-- akapit  koniec-->
+			 											</tbody>	
+			 										</table>
+			 										<!-- kolumna 2 koniec-->
+			 									</td>
+			 								</tr>
+			 							</tbody>	
+			 						</table>
+			 						<!-- 1 i 2 kolumna koniec-->
+			 						<!-- separator mobilny -->				
+									<table class="hidden" width="1" border="0" cellspacing="0" cellpadding="0" align="right">
+										<tbody>
+											<tr>
+												<td class="width-100" height="40">
+												</td>
+											</tr>
+										</tbody>
+									</table> 
+									<!-- koniec separator mobilny -->
+			 						<!-- kolumna 3 -->
+			 						<table class="width-100" align="right" width="190" cellpadding="0" cellspacing="0" border="0">
+			 								<tbody>
+												<tr>
+			 										<td class="width-100-center" align="center">
+			 											<a href="" style="text-decoration: none;">
+															<img src="http://placehold.it/119x119" width="119" style="display: inline-block; border: 13px solid #c4687b" alt="Cum sociis" />
+														</a>
+			 										</td>
+			 									</tr>
+			 									<!-- nagłowek -->
+			 									<tr>
+	 	 											<td align="center" class="width-100-center" style="font-size: 20px; color: #c54d64; line-height: 50px; font-family:  Questrial, sans-serif; font-weight: bold">
+	 	 												Cum sociis 
+	 	 											</td>
+	 	 										</tr>
+			 									<!-- nagłowek koniec -->
+			 									<!-- akapit  -->
+			 									<tr>
+	 	 											<td align="center" class="width-100-center" style="font-size: 16px; color: #627189; line-height: 22px; font-family:  Questrial, sans-serif;">
+	 	 												Fusce augue lectus, commodo at bibendum tempor, efficitur eget.
+	 	 											</td>
+	 	 										</tr>
+			 									<!-- akapit  koniec-->
+			 								</tbody>	
+			 						</table>
+			 						<!-- kolumna 3 koniec-->
+			 					</td>
+			 				</tr>
+			 				<!-- margines -->
+							<tr>
+								<td height="40" style="line-height:0;font-size:0px;border-collapse: collapse">
+								</td>
+							</tr>
+							<!-- margines koniec-->
+			 			</tbody>	
+			 		</table>
+			 	</td>
+			</tr>
+		</tbody>
+	</table>
+	<!-- informacje koniec -->
+	<!-- to co najlepsze sekcja -->
+	<table class="wrapper" width="100%" bgcolor="#e8ebed" cellpadding="0" cellspacing="0" border="0">
+		<tbody>
+			<tr>
+				<td>
+					<table class="width-92" width="590" cellpadding="0" cellspacing="0" border="0" align="center">
+						<tbody>
+							<tr>
+								<td>
+									<!-- kolumna lewa -->
+									<table class="width-100" width="240" cellpadding="0" cellspacing="0" border="0" align="left">
+										<!-- margines -->
+										<tr>
+											<td height="30" style="line-height:0;font-size:0px;border-collapse: collapse">
+											</td>
+										</tr>
+										<!-- margines koniec-->
+										<!-- nagłowek -->
+			 							<tr>
+	 	 									<td align="left" class="width-100" style="font-size: 26px; color: #627189; line-height: 37px; font-family:  Questrial, sans-serif; ">
+	 	 										Duis maximus
+	 	 									</td>
+	 	 								</tr>
+			 							<!-- nagłowek koniec -->
+			 							<!-- margines -->
+										<tr>
+											<td height="20" style="line-height:0;font-size:0px;border-collapse: collapse">
+											</td>
+										</tr>
+										<!-- margines koniec-->
+										<!-- akapit -->
+					 	 				<tr>
+					 	 					<td align="left" class="width-100" style="font-size: 16px; color: #627189; line-height: 24px; font-family:  Questrial, sans-serif ">
+					 	 						Lorem ipsum Veniam in velit commodo dolor veniam eiusmod laborum ea culpa. 
+					 	 					</td>
+					 	 				</tr>
+					 	 			 	<!-- akapit koniec -->
+					 	 			 	<!-- margines -->
+										<tr>
+											<td height="20" style="line-height:0;font-size:0px;border-collapse: collapse">
+											</td>
+										</tr>
+										<!-- margines koniec-->
+										<!-- przycisk -->
+										<tr >
+											<td align="left" style="border-collapse: collapse">
+												<table cellpadding="0" cellspacing="0" border="0"  style="border-collapse: collapse;">
+													<tbody>
+														<tr>
+															<td style="border-radius: 50px; font-family: 'Varela Round', sans-serif; " width="200" height="50" bgcolor="#c54d64" align="center">
+																<a href="" style="text-decoration: none; color: #ffffff; font-size: 16px; line-height: 29px; width: 100%;">
+																	ZOBACZ WIĘCEJ
+																</a>
+															</td>
+														</tr>
+													</tbody>
+												</table>
+											</td>
+										</tr>
+										<!-- przycisk koniec -->
+									</table>
+									<!-- separator mobilny -->				
+									<table class="hidden" width="1" border="0" cellspacing="0" cellpadding="0" align="right">
+										<tbody>
+											<tr>
+												<td class="width-100" height="40">
+												</td>
+											</tr>
+										</tbody>
+									</table> 
+									<!-- koniec separator mobilny -->
+									<!-- kolumna lewa koniec -->
+									<!-- kolumna prawa -->
+									<table class="width-100" width="350" cellpadding="0" cellspacing="0" border="0" align="right">
+										<tbody>
+											<tr>
+												<td class="width-100-center" align="right">
+													<img src="http://placehold.it/300x300" width="300" class="img_rwd"style="display: inline-block;" alt="produkt 1" />
+												</td>
+											</tr>
+										</tbody>
+									</table>
+									<!-- kolumna prawa koniec -->
+									<!-- separator mobilny -->				
+									<table class="hidden" width="1" border="0" cellspacing="0" cellpadding="0" align="right">
+										<tbody>
+											<tr>
+												<td class="width-100" height="40">
+												</td>
+											</tr>
+										</tbody>
+									</table> 
+									<!-- koniec separator mobilny -->
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+	<!-- to co najlepsze sekcja koniec-->
+	<!-- nowoczesny design -->
+	<table  class="wrapper" width="100%" bgcolor="#c54d64" cellpadding="0" cellspacing="0" border="0">
+		<tbody>
+			<tr>
+				<td>
+					<table  class="width-92" width="590" cellpadding="0" cellspacing="0" border="0" align="center">
+						<tbody>
+							<!-- margines  -->
+							<tr>
+								<td height="35" style="line-height:0;font-size:0px;border-collapse: collapse">
+								</td>
+							</tr>
+							<!-- margines koniec -->
+							<tr>
+								<td>
+									<!-- kolumna lewa -->
+									<table  class="width-100" width="320" cellpadding="0" cellspacing="0" border="0" align="left" >
+										<tbody>
+											<tr>
+												<td class="width-100-center" >
+													<a href="" style="text-decoration: none;">
+														<img src="http://placehold.it/285x306" class="img_rwd" width="285" style="display: inline-block" alt="Produkt 2"/>
+													</a>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+									<!-- kolumna lewa koniec-->
+									<!-- separator mobilny -->				
+									<table class="hidden" width="1" border="0" cellspacing="0" cellpadding="0" align="right">
+										<tbody>
+											<tr>
+												<td class="width-100" height="40">
+												</td>
+											</tr>
+										</tbody>
+									</table> 
+									<!-- koniec separator mobilny -->
+									<!-- kolumna prawa -->
+									<table  class="width-100" width="270" cellpadding="0" cellspacing="0" border="0" align="right">
+										<tbody>
+											<tr>
+												<td>
+													<!-- nagłowek -->
+	 												<tr>
+	 	 												<td align="left" class="width-100" style="font-size: 30px; color: #ffffff; line-height: 30px; font-family:  Questrial, sans-serif ">
+	 	 													Donec volutpat 
+	 	 												</td>
+	 	 											</tr>
+	 	 											<!-- nagłowek koniec-->
+	 	 											<!-- margines  -->
+													<tr>
+														<td height="35" style="line-height:0;font-size:0px;border-collapse: collapse">
+														</td>
+													</tr>
+													<!-- margines koniec -->
+													<!-- akapit -->
+								 	 				<tr>
+								 	 					<td align="left" class="width-100" style="font-size: 16px; color: #ffffff; line-height: 24px; font-family:  Questrial, sans-serif ">
+								 	 						Lorem ipsum Veniam in velit commodo dolor veniam eiusmod laborum ea culpa. 
+								 	 					</td>
+								 	 				</tr>
+								 	 			 	<!-- akapit koniec -->
+								 	 			 	<!-- margines  -->
+													<tr>
+														<td height="40" style="line-height:0;font-size:0px;border-collapse: collapse">
+														</td>
+													</tr>
+													<!-- margines koniec -->
+								 	 			 	<!-- przycisk -->
+													<tr >
+														<td align="left" style="border-collapse: collapse">
+															<table class="element-center"  cellpadding="0" cellspacing="0" border="0"  style="border-collapse: collapse;">
+																<tbody>
+																	<tr>
+																		<td style="border-radius: 50px; font-family: 'Varela Round', sans-serif; " width="200" height="50" bgcolor="#ffffff" align="center">
+																			<a href="" style="text-decoration: none; color: #c54d64; font-size: 16px; line-height: 29px; width: 100%;">
+																				Zobacz
+																			</a>
+																		</td>
+																	</tr>
+																</tbody>
+															</table>
+														</td>
+													</tr>
+													<!-- przycisk koniec -->
+												</td>
+											</tr>
+										</tbody>
+									</table>
+									<!-- kolumna prawa koniec-->
+								</td>
+							</tr>
+							<!-- margines -->
+							<tr>
+								<td height="35" style="line-height:0;font-size:0px;border-collapse: collapse">
+								</td>
+							</tr>
+							<!-- margines koniec-->
+						</tbody>
+					</table>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+	<!-- nowoczesny design koniec-->
+	<!-- sekcja zdecyduj teraz  -->
+	<table class="wrapper" width="100%" bgcolor="#ffffff" cellpadding="0" cellspacing="0" border="0">
+		<tbody>
+			<tr>
+				<td>
+					<table class="width-92" width="590" cellpadding="0" cellspacing="0" border="0" align="center">
+						<tbody>
+							<!-- margines -->
+							<tr>
+								<td height="25" style="line-height:0;font-size:0px;border-collapse: collapse">
+								</td>
+							</tr>
+							<!-- margines koniec-->
+							<tr>
+								<td>
+									<!-- lewa kolumna -->
+									<table class="width-100" width="290" cellpadding="0" cellspacing="0" border="0" align="left">
+										<tbody>
+											<!-- nagłowek -->
+	 										<tr>
+	 	 										<td align="left" class="width-100" style="font-size: 24px; color: #627189; line-height: 30px; font-family:  Questrial, sans-serif ">
+	 	 											Maecenas laoreet
+	 	 										</td>
+	 	 									</tr>
+	 	 									<!-- nagłowek koniec-->
+	 	 									<!-- margines -->
+											<tr>
+												<td height="25" style="line-height:0;font-size:0px;border-collapse: collapse">
+												</td>
+											</tr>
+											<!-- margines koniec-->
+											<!-- akapit -->
+								 	 		<tr>
+								 	 			<td align="left" class="width-100" style="font-size: 16px; color: #627189; line-height: 24px; font-family:  Questrial, sans-serif ">
+								 	 				Lorem ipsum Veniam in velit commodo dolor veniam eiusmod laborum ea culpa. 
+								 	 			</td>
+								 	 		</tr>
+								 	 		<!-- akapit koniec -->
+								 	 		<!-- margines -->
+											<tr>
+												<td height="30" style="line-height:0;font-size:0px;border-collapse: collapse">
+												</td>
+											</tr>
+											<!-- margines koniec-->
+											<!-- przycisk -->
+											<tr >
+												<td align="left" style="border-collapse: collapse">
+													<table class="element-center"  cellpadding="0" cellspacing="0" border="0"  style="border-collapse: collapse;">
+														<tbody>
+															<tr>
+																<td style="border-radius: 50px; font-family: 'Varela Round', sans-serif; " width="200" height="50" bgcolor="#c54d64" align="center">
+																	<a href="" style="text-decoration: none; color: #ffffff; font-size: 16px; line-height: 29px; width: 100%;">
+																		WIĘCEJ
+																	</a>
+																</td>
+															</tr>
+														</tbody>
+													</table>
+												</td>
+											</tr>
+											<!-- przycisk koniec -->
+										</tbody>
+									</table>
+									<!-- lewa kolumna koniec-->
+									<!-- separator mobilny -->				
+									<table class="hidden" width="1" border="0" cellspacing="0" cellpadding="0" align="right">
+										<tbody>
+											<tr>
+												<td class="width-100" height="40">
+												</td>
+											</tr>
+										</tbody>
+									</table> 
+									<!-- koniec separator mobilny -->
+									<!-- prawa kolumna -->
+									<table class="width-100" width="290"  cellpadding="0" cellspacing="0" border="0" align="right">
+										<tbody>
+											<tr>
+												<td align="right" class="width-100-center" >
+													<img src="http://placehold.it/255x196" alt="produkt 3" style="display: inline-block; border: 0px "/>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+									<!-- prawa kolumna koniec-->
+								</td>
+							</tr>
+							<!-- margines -->
+							<tr>
+								<td height="30" style="line-height:0;font-size:0px;border-collapse: collapse">
+								</td>
+							</tr>
+							<!-- margines koniec-->
+						</tbody>
+					</table>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+	<!-- sekcja zdecyduj teraz koniec -->
+	<!-- sekcja wybirz pakiet -->
+	<table class="wrapper" width="100%" bgcolor="#e8ebed" cellpadding="0" cellspacing="0" border="0">
+		<tbody>
+			<tr>
+				<td>
+					<table class="width-92" width="590" cellpadding="0" cellspacing="0" border="0" align="center">
+						<tbody>
+							<!-- margines -->
+							<tr>
+								<td height="40" style="line-height:0;font-size:0px;border-collapse: collapse">
+								</td>
+							</tr>
+							<!-- margines koniec-->
+							<!-- nagłowek -->
+			 				<tr>
+	 	 						<td align="center" class="width-100-center" style="font-size: 24px; color: #627189; line-height: 60px; font-family:  Questrial, sans-serif; ">
+	 	 							Aliquam erat  
+	 	 						</td>
+	 	 					</tr>
+			 				<!-- nagłowek koniec -->
+			 				<!-- akapit -->
+			 				<tr>
+	 	 						<td align="center" class="width-100-center" style="font-size: 16px; color: #627189; line-height: 24px; font-family:  Questrial, sans-serif; ">
+	 	 							Lorem ipsum Esse dolor sit aliquip occaecat nisi pariatur Excepteur cillum esse aliqua nostrud dolor.   
+	 	 						</td>
+	 	 					</tr>
+			 				<!-- akapit koniec-->
+			 				<!-- margines -->
+							<tr>
+								<td height="40" style="line-height:0;font-size:0px;border-collapse: collapse">
+								</td>
+							</tr>
+							<!-- margines koniec-->
+							<!-- kolumny -->
+							<tr>
+								<td>
+									<!-- kolumna lewa -->
+									<table class="width-100" width="270" bgcolor="#f8b9c5" cellpadding="0" cellspacing="0" border="0" align="left">
+										<tbody>
+											<!-- margines -->
+											<tr>
+												<td height="20" style="line-height:0;font-size:0px;border-collapse: collapse">
+												</td>
+											</tr>
+											<!-- margines koniec-->
+											<!-- nagłowek -->
+						 					<tr>
+						 	 					<td align="center" class="width-100-center" style="font-size: 24px; color: #292e3b; line-height: 35px; font-family:  Questrial, sans-serif ">
+						 	 						Vivamus
+						 	 					</td>
+						 	 				</tr>
+						 	 				<!-- nagłowek koniec-->
+						 	 				<!-- cena -->
+						 	 				<tr>
+						 	 					<td align="center" class="width-100-center" style="font-size: 30px; color: #c54d64; line-height: 40px; font-family:  Questrial, sans-serif ">
+						 	 						105 PLN
+						 	 					</td>
+						 	 				</tr>
+						 	 				<!-- cena koniec -->
+						 	 				<!-- margines -->
+											<tr>
+												<td height="20" style="line-height:0;font-size:0px;border-collapse: collapse">
+												</td>
+											</tr>
+											<!-- margines koniec-->
+											<!-- akapit -->
+											<tr>
+						 	 					<td align="center" class="width-100-center" style="font-size: 14px; color: #627189; line-height: 20px; font-family:  Questrial, sans-serif ">
+						 	 						Se dolor sit aliquip se dolor sit alfdfiquip occaecat.
+						 	 					</td>
+						 	 				</tr>
+											<!-- akapit koniec -->
+											<!-- margines -->
+											<tr>
+												<td height="20" style="line-height:0;font-size:0px;border-collapse: collapse">
+												</td>
+											</tr>
+											<!-- margines koniec-->
+											<!-- link -->
+											<tr>
+						 	 					<td align="center" class="width-100-center" style="font-size: 18px; line-height: 20px; font-family:  Questrial, sans-serif;">
+						 	 						<a href="" style="text-decoration: none; color: #c54d64;font-weight: bold ">ZOBACZ</a>
+						 	 					</td>
+						 	 				</tr>
+											<!-- link koniec -->
+											<!-- margines -->
+											<tr>
+												<td height="20" style="line-height:0;font-size:0px;border-collapse: collapse">
+												</td>
+											</tr>
+											<!-- margines koniec-->
+										</tbody>		
+									</table>
+									<!-- kolumna lewa koniec-->
+									<!-- separator mobilny -->				
+									<table class="hidden" width="1" border="0" cellspacing="0" cellpadding="0" align="right">
+										<tbody>
+											<tr>
+												<td class="width-100" height="40">
+												</td>
+											</tr>
+										</tbody>
+									</table> 
+									<!-- koniec separator mobilny -->
+									<!-- kolumna prawa -->
+									<table class="width-100" width="270" bgcolor="#c4eef5" cellpadding="0" cellspacing="0" border="0" align="right">
+										<tbody>
+											<!-- margines -->
+											<tr>
+												<td height="20" style="line-height:0;font-size:0px;border-collapse: collapse">
+												</td>
+											</tr>
+											<!-- margines koniec-->
+											<!-- nagłowek -->
+						 					<tr>
+						 	 					<td align="center" class="width-100-center" style="font-size: 24px; color: #292e3b; line-height: 35px; font-family:  Questrial, sans-serif ">
+						 	 						Etiam
+						 	 					</td>
+						 	 				</tr>
+						 	 				<!-- nagłowek koniec-->
+						 	 				<!-- cena -->
+						 	 				<tr>
+						 	 					<td align="center" class="width-100-center" style="font-size: 30px; color: #58afbc; line-height: 40px; font-family:  Questrial, sans-serif ">
+						 	 						116 PLN
+						 	 					</td>
+						 	 				</tr>
+						 	 				<!-- cena koniec -->
+						 	 				<!-- margines -->
+											<tr>
+												<td height="20" style="line-height:0;font-size:0px;border-collapse: collapse">
+												</td>
+											</tr>
+											<!-- margines koniec-->
+											<!-- akapit -->
+											<tr>
+						 	 					<td align="center" class="width-100-center" style="font-size: 14px; color: #627189; line-height: 20px; font-family:  Questrial, sans-serif ">
+						 	 						Se dolor sit aliquip se dolor sit alfdfiquip occaecat.
+						 	 					</td>
+						 	 				</tr>
+											<!-- akapit koniec -->
+											<!-- margines -->
+											<tr>
+												<td height="20" style="line-height:0;font-size:0px;border-collapse: collapse">
+												</td>
+											</tr>
+											<!-- margines koniec-->
+											<!-- link -->
+											<tr>
+						 	 					<td align="center" class="width-100-center" style="font-size: 18px; line-height: 20px; font-family:  Questrial, sans-serif ">
+						 	 						<a href="" style="text-decoration: none; color: #58afbc; font-weight: bold ">ZOBACZ</a>
+						 	 					</td>
+						 	 				</tr>
+											<!-- link koniec -->
+											<!-- margines -->
+											<tr>
+												<td height="20" style="line-height:0;font-size:0px;border-collapse: collapse">
+												</td>
+											</tr>
+											<!-- margines koniec-->
+										</tbody>		
+									</table>
+									<!-- kolumna prawa koniec-->
+								</td>
+							</tr>
+							<!-- kolumny koniec-->
+							<!-- margines -->
+							<tr>
+								<td height="40" style="line-height:0;font-size:0px;border-collapse: collapse">
+								</td>
+							</tr>
+							<!-- margines koniec-->
+						</tbody>	
+					</table>	
+				</td>
+			</tr>
+		</tbody>
+	</table>	
+	<!-- sekcja wybirz pakiet koniec-->
+	<!-- footer -->
+	<table class="wrapper" width="100%" bgcolor="#173c42" cellpadding="0" cellspacing="0" border="0">
+		<tbody>
+			<tr>
+				<td>
+					<table class="width-100" width="490" cellpadding="0" cellspacing="0" border="0" align="center">
+						<tbody>
+							<!-- margines -->
+							<tr>
+								<td height="20" style="line-height:0;font-size:0px;border-collapse: collapse">
+								</td>
+							</tr>
+							<!-- margines koniec-->
+							<!-- kolumny -->
+							<tr>
+								<td>
+									<!-- kolumny 1 i 2-->
+									<table class="width-100" align="left" width="320" cellpadding="0" cellspacing="0" border="0">
+										<tbody>
+											<tr>
+												<td>
+													<!-- kolumna 1-->
+													<table class="width-100" align="left" width="160" cellpadding="0" cellspacing="0" border="0">
+														<tbody>
+															<!-- nagłowek -->
+			 												<tr>
+	 	 														<td align="center" class="width-100-center" style="font-size: 18px; color: #ffffff; line-height: 50px; font-family:  Questrial, sans-serif; ">
+	 	 															Blog   
+	 	 														</td>
+	 	 													</tr>
+			 												<!-- nagłowek koniec -->
+			 												<!-- link -->
+															<tr>
+										 	 					<td align="center" class="width-100-center" style="font-size: 14px; line-height: 30px; font-family:  Questrial, sans-serif ">
+										 	 						<a href="" style="text-decoration: none; color: #798992; ">Najnowszy post </a>
+										 	 					</td>
+										 	 				</tr>
+															<!-- link koniec -->
+															<!-- link -->
+															<tr>
+										 	 					<td align="center" class="width-100-center" style="font-size: 14px; line-height: 30px; font-family:  Questrial, sans-serif ">
+										 	 						<a href="" style="text-decoration: none; color: #798992; ">Porady  </a>
+										 	 					</td>
+										 	 				</tr>
+															<!-- link koniec -->
+															<!-- link -->
+															<tr>
+										 	 					<td align="center" class="width-100-center" style="font-size: 14px; line-height: 30px; font-family:  Questrial, sans-serif ">
+										 	 						<a href="" style="text-decoration: none; color: #798992; ">Forum  </a>
+										 	 					</td>
+										 	 				</tr>
+															<!-- link koniec -->
+														</tbody>
+													</table>
+													<!-- kolumna 1 koniec-->
+													<!-- kolumna 2 -->
+													<table class="width-100" align="right" width="160" cellpadding="0" cellspacing="0" border="0">
+														<tbody>
+															<!-- nagłowek -->
+			 												<tr>
+	 	 														<td align="center" class="width-100-center" style="font-size: 18px; color: #ffffff; line-height: 50px; font-family:  Questrial, sans-serif; ">
+	 	 															Pomoc   
+	 	 														</td>
+	 	 													</tr>
+			 												<!-- nagłowek koniec -->
+			 												<!-- link -->
+															<tr>
+										 	 					<td align="center" class="width-100-center" style="font-size: 14px; line-height: 30px; font-family:  Questrial, sans-serif ">
+										 	 						<a href="" style="text-decoration: none; color: #798992; ">Infolinia  </a>
+										 	 					</td>
+										 	 				</tr>
+															<!-- link koniec -->
+															<!-- link -->
+															<tr>
+										 	 					<td align="center" class="width-100-center" style="font-size: 14px; line-height: 30px; font-family:  Questrial, sans-serif ">
+										 	 						<a href="" style="text-decoration: none; color: #798992; ">Serwis  </a>
+										 	 					</td>
+										 	 				</tr>
+															<!-- link koniec -->
+															<!-- link -->
+															<tr>
+										 	 					<td align="center" class="width-100-center" style="font-size: 14px; line-height: 30px; font-family:  Questrial, sans-serif ">
+										 	 						<a href="" style="text-decoration: none; color: #798992; ">Gwarancja  </a>
+										 	 					</td>
+										 	 				</tr>
+															<!-- link koniec -->
+														</tbody>
+													</table>
+													<!-- kolumna 2 koniec-->
+												</td>
+											</tr>
+										</tbody>
+									</table>
+									<!-- kolumny 1 i 2 koniec-->
+									<!-- kolumna 3 -->
+									<table class="width-100" align="right" width="160" cellpadding="0" cellspacing="0" border="0">
+										<tbody>
+											<!-- nagłowek -->
+			 								<tr>
+	 	 										<td align="center" class="width-100-center" style="font-size: 18px; color: #ffffff; line-height: 50px; font-family:  Questrial, sans-serif; ">
+	 	 											Kontakt 
+	 	 										</td>
+	 	 									</tr>
+			 								<!-- nagłowek koniec -->
+			 								<!-- link -->
+											<tr>
+										 	 	<td align="center" class="width-100-center" style="font-size: 14px; line-height: 30px; font-family:  Questrial, sans-serif ">
+										 	 		<a href="" style="text-decoration: none; color: #798992; ">Telefon</a>
+										 	 	</td>
+										 	 </tr>
+											<!-- link koniec -->
+											<!-- link -->
+											<tr>
+										 	 	<td align="center" class="width-100-center" style="font-size: 14px; line-height: 30px; font-family:  Questrial, sans-serif ">
+										 	 		<a href="" style="text-decoration: none; color: #798992; ">Dojazd </a>
+										 	 	</td>
+										 	</tr>
+											<!-- link koniec -->
+											<!-- link -->
+											<tr>
+										 	 	<td align="center" class="width-100-center" style="font-size: 14px; line-height: 30px; font-family:  Questrial, sans-serif ">
+										 	 		<a href="" style="text-decoration: none; color: #798992; ">E-mail </a>
+										 	 	</td>
+										 	 </tr>
+											<!-- link koniec -->
+										</tbody>
+									</table>
+									<!-- kolumna 3 koniec -->
+								</td>
+							</tr>
+							<!-- kolumny koniec -->
+							<!-- margines -->
+							<tr>
+								<td height="20" style="line-height:0;font-size:0px;border-collapse: collapse">
+								</td>
+							</tr>
+							<!-- margines koniec-->
+						</tbody>
+					</table>	
+				</td>
+			</tr>
+		</tbody>
+	</table>
+	<!-- footer koniec -->
+	<!-- copyright -->
+	<table class="wrapper" width="100%" bgcolor="#1f545c" cellpadding="0" cellspacing="0" border="0">
+		<tbody>
+			<tr>
+				<td>
+					<table class="width-100" width="590" cellpadding="0" cellspacing="0" border="0" align="center">
+						<tbody>
+							<!-- margines -->
+							<tr>
+								<td height="15" style="line-height:0;font-size:0px;border-collapse: collapse">
+								</td>
+							</tr>
+							<!-- margines koniec-->
+							<!-- copyright -->
+			 				<tr>
+	 	 						<td align="center" class="width-100-center copyright" style="font-size: 18px; color: #ffffff; line-height: 50px; font-family:  Questrial, sans-serif; ">
+	 	 							Copyright © KK 
+	 	 						</td>
+	 	 					</tr>
+			 				<!-- copyright koniec-->
+			 				<!-- margines -->
+							<tr>
+								<td height="10" style="line-height:0;font-size:0px;border-collapse: collapse">
+								</td>
+							</tr>
+							<!-- margines koniec-->
+						</tbody>
+					</table>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+	<!-- copyright koniec-->
+</body>
+
+</html>
