@@ -1,7 +1,7 @@
-# Responsive Email Template – Promotional Newsletter
+# Responsive Email Template – Newsletter
 
 A responsive HTML email template created as part of my portfolio.  
-The project demonstrates practical skills in building promotional newsletters using table‑based layouts, inline CSS, and email‑client‑safe techniques.
+The project demonstrates practical skills in building newsletters using table‑based layouts, inline CSS, and email‑client‑safe techniques.
 
 ## 🔧 Technologies Used
 - HTML (table-based layout for email compatibility)
