@@ -7,21 +7,21 @@ The project demonstrates practical skills in building newsletters using table‑
 - HTML (table-based layout for email compatibility)
 - Inline CSS
 - Responsive techniques for mobile email clients
-- GitHub Pages for preview
+- Canva graphics
 
 ## 📬 Live Preview
 The newsletter can be viewed here:  
-https://kasiakwiatek.github.io/e-mail/
+[![GitHub Pages](https://img.shields.io/badge/Live%20Demo-GitHub%20Pages-blue)](https://kasiakwiatek.github.io/e-mail/)
 
 ## 🖼️ Graphic Assets
 Graphic assets used in this project were created using Canva’s design library.
 They are included here as part of the final project output and are not intended for separate download, reuse, or redistribution.
 
 ## 📝 Project Notes
-This is a non‑commercial project created for learning and portfolio purposes.  
-All links in the template use "#" as placeholders and do not lead to external pages.  
-The template is intended for preview and code review only, not for production use.
+All links in the template use # as placeholders.
+Some text sections contain Lorem ipsum as placeholder content.
+This is not a commercial project and does not represent a real brand or campaign.
 
 ## 📄 License
-This repository is provided for review purposes only.  
+This repository is provided for review and portfolio purposes only.
 
